@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+/staticfiles
+
+# Environment
+venv/
+ENV/
+env/
+.venv/
+manage.py
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Django migrations
+custom_auth/migrations/*.pyc
+custom_auth/migrations/__pycache__/
+livros/migrations/*.pyc
+livros/migrations/__pycache__/
+
+# Secrets
+*.env
+.env
+
+# coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# mypy
+.mypy_cache/
+
+# celery
+celerybeat-schedule
+
+# All other files that should not be versioned
+__pycache__/
+*.log
+*.pot
+*.py[cod]
+*.swp
+
